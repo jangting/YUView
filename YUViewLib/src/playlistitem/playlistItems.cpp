@@ -139,7 +139,7 @@ playlistItem *createPlaylistItemFromFile(QWidget *parent, const QString &fileNam
     {
       // This is definitely an image file. But could it also be an image file sequence?
       bool openAsImageSequence = false;
-      if (playlistItemImageFileSequence::isImageSequence(fileName))
+      if (false)
       {
         // This is not only one image, but a sequence of images. Ask the user how to open it.
         QMessageBox::StandardButton choice = QMessageBox::question(
